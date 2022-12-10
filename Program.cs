@@ -1,0 +1,17 @@
+﻿using System;
+
+namespace task23
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Clear();
+            Console.WriteLine("Введите число: ");
+            int n = int.Parse(Console.ReadLine());
+            for (int i = 1; i<= n; i++)
+            
+            Console.WriteLine($"{i * i *i}");
+        }
+    }
+}
